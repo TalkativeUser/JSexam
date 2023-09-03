@@ -1,0 +1,135 @@
+
+
+.mainFood-img {
+
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.mainFood-img:hover .mainFood-lyar{
+
+    translate:0 0 ;
+    
+}
+.mainFood-img:hover{ cursor: pointer;}
+
+.mainFood-lyar { 
+
+    font-size:25px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    translate:0 100% ;
+    transition: translate 0.5s 0.2s;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.main-food-desc .towBtn {
+
+    margin-top: 33px;
+}
+
+.main-food-desc span { 
+    background-color: #cff4fc;
+color: black;
+padding: 6px;
+display: inline-block;
+margin-top: 12px;
+/* margin-bottom: 20px; */
+
+}
+
+.contentAside {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.innerAside {
+
+width: 66px;
+background-color: white;
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0px;
+display: flex;
+flex-direction: column;
+
+justify-content: space-between;
+z-index: 22;
+
+
+}
+
+.contentAside {
+
+
+width: 256px;
+background-color: black;
+position: fixed;
+top: 0;
+bottom: 0;
+left: -256px;
+z-index: 22;
+
+}
+
+.contentAside .content,.footerAside {
+
+list-style-type: none;
+color: white;
+margin-top: 30px;
+
+}
+
+.hideen-visible1 {
+left: 0;
+
+}
+.hideen-visible2 {
+
+left: 256px; ;
+}
+
+.contentAside .content li {
+
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.footerAside li {
+
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.fa-share-nodes:hover ,.fa-globe:hover,.open-close-icon:hover,.fa-facebook:hover,.fa-twitter:hover,.content li:hover{
+
+    cursor: pointer;
+} 
+  
+.searsh input {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 6px;
+    caret-color: white;
+}
+
+
+.searsh input:focus{
+
+    box-shadow: 1px -1px 1px 4px #5578ec;
+}
+
